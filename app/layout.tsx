@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Download Terabox Files. @RoldexVerse",
+  title: "Download Terabox Files.",
   description: "Download any downloadable files from terabox.com",
 };
 

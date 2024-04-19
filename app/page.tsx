@@ -124,20 +124,8 @@ export default function Home() {
         <div className="self-center">
           <Link href="/">Terabox Downloader</Link>
         </div>
-        <ul className="flex items-center gap-3 ">
-          <li>
-            {/* <Camera color="red" size={48} /> */}
-            <Button className="bg-slate-600  ">
-              <Link href="https://github.com/r0ld3x/terabox-app">Github</Link>
-            </Button>
-          </li>
-          <li>
-            {/* <Camera color="red" size={48} /> */}
-            <Button className="bg-blue-600  ">
-              <Link href="https://t.me/RoldexVerse">Telegram</Link>
-            </Button>
-          </li>
-        </ul>
+       
+       
       </nav>
       <main className="mt-6 py-10 bg-slate-700 rounded-lg items-center flex flex-col justify-center gap-2">
         <h1 className="text-xl sm:text-3xl font-bold text-center text-white">
