@@ -16,7 +16,12 @@ interface ResponseData {
 }
 
 const fetchWithToken = async (url: URL | RequestInfo) => {
-  const res = await fetch(url);
+  const res = await fetch(url, {
+  headers:{
+    "Access-Control-Allow-Origin":"*",
+
+  }
+  });
   if (!res.ok) {
     const errorRes = await res.json();
     const error = new Error();
