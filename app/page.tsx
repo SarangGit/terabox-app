@@ -17,12 +17,7 @@ interface ResponseData {
 
 const fetchWithToken = async (url: URL | RequestInfo) => {
 console.log(url)
-  const res = await fetch(url, {
-  headers:{
-    "Access-Control-Allow-Origin":"https://diskwala.com",
-
-  }
-  });
+  const res = await fetch(url);
   if (!res.ok) {
     const errorRes = await res.json();
     const error = new Error();
